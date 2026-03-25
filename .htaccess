@@ -1,0 +1,31 @@
+# Activer l'accès aux images
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# Options pour le dossier
+Options +Indexes +FollowSymLinks
+
+# Activer les réécritures
+RewriteEngine On
+
+# S'assurer que les fichiers sont accessibles
+<Files "*.jpg">
+    Order allow,deny
+    Allow from all
+</Files>
+
+<Files "*.png">
+    Order allow,deny
+    Allow from all
+</Files>
+
+<Files "*.gif">
+    Order allow,deny
+    Allow from all
+</Files>
+
+<Files "*.svg">
+    Order allow,deny
+    Allow from all
+</Files>

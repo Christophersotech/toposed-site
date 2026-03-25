@@ -1,0 +1,26 @@
+/* Font Awesome Fallback - Local Version */
+.fa, .fas, .far, .fab, .fal {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+/* Essential Icons for G-TOPOSED */
+.fa-phone::before { content: "📞"; }
+.fa-envelope::before { content: "✉️"; }
+.fa-map-marker-alt::before { content: "📍"; }
+.fa-users::before { content: "👥"; }
+.fa-cogs::before { content: "⚙️"; }
+.fa-drafting-compass::before { content: "📐"; }
+.fa-building::before { content: "🏢"; }
+.fa-road::before { content: "🛣️"; }
+.fa-chart-line::before { content: "📈"; }
+.fa-bullseye::before { content: "🎯"; }
+.fa-handshake::before { content: "🤝"; }
+.fa-award::before { content: "🏆"; }
+.fa-tools::before { content: "🔧"; }
+.fa-ruler-combined::before { content: "📏"; }
+.fa-map::before { content: "🗺️"; }
+.fa-location-arrow::before { content: "📍"; }
